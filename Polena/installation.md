@@ -62,6 +62,7 @@ make xconfig
 
 __Recommended options:__
 
+```
 * General setup
   --> Local version - append to kernel release: -xenomai-3.0.5
   --> Timers subsystem
@@ -104,6 +105,8 @@ __Recommended options:__
   --> Staging drivers
       --> Unisys SPAR driver support
          --> Unisys visorbus driver (Disable)
+```
+
 
 Now start the compilation
 ```sh
